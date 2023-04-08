@@ -1,5 +1,20 @@
+body {
+  width: 720px;
+}
+
 .hero {
   background-image: url('/assets/images/hburg-pic.jpeg');
   background-size: cover;
-  height: 45rem;
+  height: 25rem;
+}
+
+.activities {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.highlights {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
 }
