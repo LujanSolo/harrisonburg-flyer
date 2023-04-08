@@ -1,11 +1,13 @@
 body {
   width: 720px;
+  text-align: center;
 }
 
 .hero {
   background-image: url('/assets/images/hburg-pic.jpeg');
   background-size: cover;
   height: 25rem;
+  color: #f1faee;
 }
 
 .activities {
@@ -17,4 +19,8 @@ body {
   height: 100px;
   width: 100px;
   border-radius: 100px;
+}
+
+.column {
+  width: 183px;
 }
