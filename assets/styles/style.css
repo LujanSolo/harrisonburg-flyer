@@ -8,11 +8,16 @@ body {
   background-size: cover;
   height: 25rem;
   color: #f1faee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .activities {
   display: flex;
   justify-content: space-evenly;
+  height: 378px;
+  line-height: 18px;
 }
 
 .highlights {
