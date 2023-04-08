@@ -1,0 +1,5 @@
+.hero {
+  background-image: url('/assets/images/hburg-pic.jpeg');
+  background-size: cover;
+  height: 45rem;
+}
