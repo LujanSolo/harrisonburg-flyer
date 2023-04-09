@@ -1,6 +1,11 @@
+* {
+  margin: 0;
+}
+
 body {
   width: 720px;
   text-align: center;
+  font-family: 'Quattrocento', serif;
 }
 
 .hero {
@@ -11,6 +16,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+#logline {
+  margin-top: 1rem;
+}
+
+.bullet-pts {
+  background-color: rgba(120, 126, 63, 0.552);
 }
 
 .activities {
@@ -28,4 +41,8 @@ body {
 
 .column {
   width: 183px;
+}
+
+.card-wrapper{
+  margin-top: 4rem;
 }
