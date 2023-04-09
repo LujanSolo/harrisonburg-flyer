@@ -25,6 +25,7 @@ body {
   padding: .5rem 1rem;
   border-radius: .3rem;
   margin-bottom: 1rem;
+  border: .2rem solid rgb(78, 81, 140);
 }
 
 #logline {
@@ -36,23 +37,36 @@ body {
   border-radius: .3rem;
   font-weight: 500;
   width: 450px;
+  border: .2rem solid rgb(96, 121, 145);
 }
 
 .bullet-pts {
   background-color: rgba(120, 126, 63, 0.552);
+  color: rgb(41, 30, 66);
+}
+
+#activity-header {
+  padding-top: 2.5rem;
 }
 
 .activities {
   display: flex;
   justify-content: space-evenly;
-  height: 378px;
   line-height: 18px;
+  padding: 2.5rem 0;
+  align-items: baseline;
 }
 
-.highlights {
+.highlight-img {
   height: 100px;
   width: 100px;
   border-radius: 100px;
+  border: .2rem solid rgb(78, 81, 140);
+}
+
+.image-header {
+  padding: 1.2rem 0;
+  font-size: 1rem;
 }
 
 .column {
