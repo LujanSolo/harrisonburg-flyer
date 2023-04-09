@@ -3,9 +3,9 @@
 }
 
 body {
-  width: 720px;
   text-align: center;
   font-family: 'Quattrocento', serif;
+  margin-bottom: 3rem;
 }
 
 .hero {
