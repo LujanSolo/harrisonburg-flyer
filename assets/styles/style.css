@@ -43,7 +43,7 @@ body {
 .bullet-pts {
   background-color: rgba(120, 126, 63, 0.552);
   color: rgb(41, 30, 66);
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 #activity-header {
@@ -54,7 +54,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   line-height: 18px;
-  padding: 2.5rem 0;
+  padding: 2rem 0;
   align-items: baseline;
 }
 
@@ -63,6 +63,14 @@ body {
   width: 100px;
   border-radius: 100px;
   border: .2rem solid rgb(78, 81, 140);
+}
+
+.highlight-img:hover {
+  height: 125px;
+  width: 125px;
+  border-radius: 100px;
+  border: .2rem solid rgb(78, 81, 140);
+  box-shadow: -.5rem .5rem .5rem black;
 }
 
 .image-header {
@@ -86,8 +94,12 @@ body {
 
 #guide-photo {
   width: 180px;
-  box-shadow: 1rem 1rem 1rem black;
+  box-shadow: .2rem .5rem 1.5rem black;
   border-radius: .3rem;
+}
+
+#guide-photo:hover {
+  box-shadow: .5rem .5rem 1.5rem  rgb(212, 86, 28);
 }
 
 .card-details {
