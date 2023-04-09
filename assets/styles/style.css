@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+html {
+  background-color:rgb(210, 210, 208)
+}
+
 body {
   text-align: center;
   font-family: 'Quattrocento', serif;
