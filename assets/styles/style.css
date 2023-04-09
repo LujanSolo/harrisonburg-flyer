@@ -16,10 +16,26 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+#greet {
+  background-color: rgb(96, 121, 145);
+  text-shadow: 0 0 4px black;
+  padding: .5rem 1rem;
+  border-radius: .3rem;
+  margin-bottom: 1rem;
 }
 
 #logline {
   margin-top: 1rem;
+  background-color: rgb(41, 30, 66);
+  font-size: 1.2rem;
+  text-shadow: 0 0 4px black;
+  padding: .5rem 1rem;
+  border-radius: .3rem;
+  font-weight: 500;
+  width: 450px;
 }
 
 .bullet-pts {
